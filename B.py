@@ -4,7 +4,14 @@
 #
 # Product nomli klass yarating.
 #
-# Atributlari:name, price, quantity(ombordagi soni)
+# Atributlari:
+#
+# name (nomi)
+#
+# price (narxi)
+#
+# quantity (ombordagi miqdori)
+#
 #
 # Metodlari:
 #
@@ -14,12 +21,9 @@
 #
 # restock(amount) → Omborga yangi mahsulot qo‘shadi.
 #
-
-
-
-
-
-
+#
+#
+#
 # 2. Voris klasslar:
 #
 # Electronics va Food klasslarini Product dan voris oling.
@@ -32,12 +36,6 @@
 #
 #
 #
-
-
-
-
-
-
 # 3. Qo‘shimcha shartlar:
 #
 # Agar sell(amount) metodiga mavjuddan ko‘p mahsulot so‘ralsa, xatolik qaytarilsin.

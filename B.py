@@ -4,15 +4,8 @@
 #
 # Product nomli klass yarating.
 #
-# Atributlari:
-#
-# name (nomi)
-#
-# price (narxi)
-#
-# quantity (ombordagi miqdori)
-#
-#
+# Atributlari: name, price, quantity
+
 # Metodlari:
 #
 # info() → Mahsulot haqida ma’lumot qaytaradi.
@@ -20,10 +13,14 @@
 # sell(amount) → Berilgan miqdorda mahsulot sotadi va ombordagi qoldiqni yangilaydi.
 #
 # restock(amount) → Omborga yangi mahsulot qo‘shadi.
-#
-#
-#
-#
+
+
+
+
+
+
+
+
 # 2. Voris klasslar:
 #
 # Electronics va Food klasslarini Product dan voris oling.
@@ -33,9 +30,15 @@
 # Food klassiga expiration_date (yaroqlilik muddati) atributini qo‘shing.
 #
 # info() metodini har bir klassga mos ravishda o‘zgartiring.
-#
-#
-#
+
+
+
+
+
+
+
+
+
 # 3. Qo‘shimcha shartlar:
 #
 # Agar sell(amount) metodiga mavjuddan ko‘p mahsulot so‘ralsa, xatolik qaytarilsin.

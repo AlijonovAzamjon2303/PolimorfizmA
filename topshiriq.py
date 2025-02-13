@@ -27,5 +27,12 @@ class Electronics(Product):
         return data
 
 
-e = Electronics("A", 12, 12, "1 yil")
-print(e.info())
+class Basket:
+    def __init__(self):
+        self.__data = []
+
+    def add(self, product):
+        pass
+
+    def remove(self, product_name):
+        pass

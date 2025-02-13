@@ -1,5 +1,8 @@
+import uuid
+
 class Product:
     def __init__(self, name, price, quantity):
+        self.__id = uuid.uuid4()
         self.name = name
         self.price = price
         self.quantity = quantity
@@ -29,6 +32,7 @@ class Electronics(Product):
 
 class Basket:
     def __init__(self):
+        self.__id = uuid.uuid4()
         self.__data = []
 
     def add(self, product):
@@ -36,3 +40,8 @@ class Basket:
 
     def remove(self, product_name):
         pass
+
+
+# 1. id bo'lsin
+# 2. Menyular orqqali basket funksiyalarini ishlatib kelish
+# 3. Basket ichidagi methodlarni ishlashida priductning id attributini ishlatish
